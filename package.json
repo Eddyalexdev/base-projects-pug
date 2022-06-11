@@ -1,0 +1,28 @@
+{
+  "name": "base-projects-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rimraf dist && gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.11",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.52.3",
+    "ts": "^0.2.2"
+  }
+}
